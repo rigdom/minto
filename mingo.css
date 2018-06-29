@@ -1,10 +1,12 @@
 body {
   color: #333;
   margin: 0 auto;
-  width: 1200px;
+  width: 1110px;
+  height:730px;
+  background-image:url(fon.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 87%;
+  background-size: 100%;
   }
   hr {
     background-color: #9c8baf;
