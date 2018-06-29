@@ -6,13 +6,13 @@ body {
   background-image: url(fon.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-size: 42%;
+    background-size: 1200px auto;
   }
-  hr {
-    background-color: #9c8baf;
+  hr {    background-color: #9c8baf;
     height: 5px;
     border: none;
-  }
+    margin-top: 47px;
+}
   .menu {    align-content: space-between;
     display: flex;
     align-items: center;
@@ -35,16 +35,57 @@ body {
   }
 
   .fon:hover {background-color: #9c91966b;}
-  .verh {width:281px;font-family: tahoma;height: 281px;background-size: 100%;display: flex;justify-content: center;align-items: center;font-size: 53px;color: white;text-shadow: black 2px 2px 2px;background-color: #9c8baf;border-radius: 50%;
+  .verh {    width: 380px;
+    font-family: tahoma;
+    height: 381px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 53px;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    background-color: #9c8baf;
+    border-radius: 50%;
 }
-.tt {display:flex;font-family: 'Open Sans';font-size: 40px;color: #9c8baf;text-transform: uppercase;text-align: left;width: 560px;}
-.logot {width: 35px;height: 35px;background-size: 100%;display: flex;justify-content: center;align-items: center;font-size: 23px;color: white;text-shadow: black 2px 2px 2px;background-color: #9c8baf;border-radius: 50%;}
-.slide {width:865px;height:415px;-webkit-filter: blur(5px);filter:blur(5px);display: flex;margin: 0 auto;background-image: url(https://www.enoivado.com.br/wp-content/uploads/2013/07/buque-de-lavanda-casamento.jpg);}
-.tex {border-top:1px #9c8baf solid;border-bottom:1px #9c8baf solid;line-height: 35px;text-align: center;font-size: 20px;font-style: italic;width: 845px;margin: 0 auto;}
-.nizz {display: flex;
-  width: 700px;
-  margin: 20px auto;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;}
-  .krug {background-image:url(https://www.enoivado.com.br/wp-content/uploads/2013/07/buque-de-lavanda-casamento.jpg);width: 250px;height: 250px;border-radius:50%;border: 8px #9c8baf outset;}
+.tt {display: flex;
+    font-family: 'Open Sans';
+    font-size: 42px;
+    color: #9c8baf;
+    text-transform: uppercase;
+    text-align: left;
+    width: 570px;}
+.logot {width: 50px;height: 50px;background-size: 100%;display: flex;justify-content: center;align-items: center;font-size: 
+
+23px;color: white;text-shadow: black 2px 2px 2px;background-color: #9c8baf;border-radius: 50%;}
+.slide {    width: 947px;
+    height: 455px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    display: flex;
+    margin: 0 auto;
+    background-image: url(https://www.enoivado.com.br/wp-content/uploads/2013/07/buque-de-lavanda-casamento.jpg);
+}
+.tex {
+    border-top: 1px #9c8baf solid;
+    border-bottom: 1px #9c8baf solid;
+    line-height: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    width: 845px;
+    margin: 37px auto;
+}
+.nizz {    display: flex;
+    width: 920px;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+  .krug {
+    background-image: url(https://www.enoivado.com.br/wp-content/uploads/2013/07/buque-de-lavanda-casamento.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 8px #9c8baf outset;
+}
