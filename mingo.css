@@ -3,10 +3,10 @@ body {
   margin: 0 auto;
   width: 1110px;
   height:730px;
-  background-image:url(fon.jpg);
+  background-image: url(fon.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position-x: center;
+  background-size: 42%;
   }
   hr {
     background-color: #9c8baf;
