@@ -1,0 +1,18 @@
+$font-stack: Verdana;
+$primary-color:#333;
+$base-color: #9c8baf;
+$font-size: 12px;
+
+body {
+    font: $font-stack;
+    color: $primary-color;
+}
+.hr {
+    background-color: $base-color;
+}
+
+.menu {
+    display:flex;
+    align-content: space-between; 
+}
+.menu .div {color:$primary-color; font:$font-stack; font-size:$font-size}
